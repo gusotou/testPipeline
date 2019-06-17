@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def call() {
-  echo "Isolation Segment Test"
+def call(String branch) {
+  echo "${branch} Segment Test"
 }
